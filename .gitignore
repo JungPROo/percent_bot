@@ -1,0 +1,19 @@
+# 환경 변수 및 보안 인증 키 (GitHub 업로드 절대 금지)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 에디터 및 OS 설정
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
